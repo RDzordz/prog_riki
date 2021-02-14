@@ -14,6 +14,10 @@ function startTime() {
     document.getElementById('clocklondon').innerHTML = hl + ":" + m + ":" + s;
     console.log(h + ":" + m + ":" + s);
     var t = setTimeout(startTime, 1000);
+
+    console.log("Hello, this snipet is made by me");
+
+
 }
 
 function checkTime(i) {
